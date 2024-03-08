@@ -37,7 +37,7 @@ async def exit(ctx):
 
 @bot.command()  # Вызывается командой -h
 async def h(ctx):
-    await ctx.send('```Здесь \nБудет \nСписок \nКоманд```')
+    await ctx.send('```-play — Включает музыку по ссылке или названию (YouTube only) \n-exit — Выход из голосового канала ```')
 
 
 bot.run(config.token)
